@@ -405,7 +405,7 @@ h1 {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 80%;
   }
   
   /* Estilos generales */
@@ -435,3 +435,25 @@ html, body {
   margin: 200px;
 }
 
+.community-section {
+  color: #FFF1E8;
+}
+
+.games-list {
+  border-top: 5px solid #FFF1E8;
+  border-bottom: 5px solid #1D2B53;
+  border-right: 5px solid #1D2B53;
+  display: flex;
+  margin: 100px;
+  background-color: #FFCCAA;
+}
+
+.games-list .list {
+  margin: 5px;
+  border: 5px;
+  padding: 5px;
+  border-style:dashed;
+  margin-right: 5%;
+  color: #000000;
+  background-color: #83769C;
+}
